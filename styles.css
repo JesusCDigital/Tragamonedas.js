@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+	background-color: #00CED1;
+	font-family: "Barlow", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+	border-radius: 5px;
+	background-color: black;
+	margin-top: 10%;
+    border-radius: 10px;
+    border: 4px solid white;
+    padding: 20px 15px;
+	width: 620px;
+    gap: 20px;
+}
+
+section#status{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #20B2AA;
+	color: #000000;
+	font-size: 25px;
+}
+
+section#Slots{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+    padding: 15px 0;
+}
+
+#slot1, #slot2, #slot3{
+	background-size: 150px;
+	width: 150px;
+	height: 150px;
+}
+
+section#Gira{
+    padding: 25px 0;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #521CB1;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+}
+
+section#Gira:hover{
+	background-color: #fa0678;
+}
+
+.a1{
+	background-image: url("./img/manzana.png");
+}
+.a2{
+	background-image: url("./img/limon.png");
+}
+.a3{
+    background-image: url("./img/naranja.png");
+}
+.a4{
+	background-image: url("./img/uvas.png");
+}
+.a5{
+	background-image: url("./img/pina.png");
+}
+.a6{
+	background-image: url("./img/sandia.png");
+}
+.a7{
+	background-image: url("./img/pera.png");
+}
+.a8{
+	background-image: url("./img/coco.png");
+}
+.a9{
+    background-image: url("./img/cereza.png");
+}
